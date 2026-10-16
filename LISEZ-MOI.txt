@@ -1,0 +1,13 @@
+CARTE DE VISITE VERTICALE — NAOUFEL MRINI
+
+1. Sur github.com, crée un dépôt PUBLIC (ex. carte-naoufel).
+2. Téléverse à la RACINE du dépôt : index.html, signature.png, origami.png, naoufel-mrini.vcf (et facultativement carte-originale.png). Ne téléverse pas le dossier parent seul.
+3. Settings > Pages > Build and deployment > Deploy from a branch > main > /(root) > Save.
+4. Attends la publication et ouvre l’URL fournie dans Settings > Pages.
+5. Vérifie sur iPhone et Android que la carte s’affiche et que le fichier de contact s’ouvre.
+6. Sur ton Mac : python3 -m pip install "qrcode[pil]" puis python3 generer_qr.py. Colle l’URL GitHub Pages.
+7. Teste le QR code final avant impression.
+
+IMPORTANT : le QR code n'est pas inclus à l'avance car l'URL publique n'existe pas encore. Le QR affiché dans les maquettes est illustratif.
+Le fichier VCF s'ouvre dans les applications de contacts selon le navigateur et le téléphone.
+Les coordonnées sont publiques sur GitHub Pages.
